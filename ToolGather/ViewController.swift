@@ -8,18 +8,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: LennyBasicViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        setViews()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    private func setViews() {
+        lenny_OpenGestureDismiss(panGestureFrom: .left) { (context) in
+            
+            let fromViewController = context.viewController(forKey: .from)
+            let toViewController = context.viewController(forKey: .to)
+            let containerView = context.containerView
+            
+            containerView.addSubview(toViewController!.view)
+            containerView.addSubview(fromViewController!.view)
+            let originalFrame = fromViewController?.view.frame
+            UIView.animate(withDuration: 0.3, animations: {
+                fromViewController?.view.frame = self.transitionBounds
+                fromViewController!.view.alpha = 0
+            }, completion: { (finished) in
+                context.completeTransition(!context.transitionWasCancelled)
+                fromViewController?.view.frame = originalFrame!
+                fromViewController?.view.alpha = 1.0
+            })
+            
+        }
+        view.backgroundColor = UIColor.cc_BackgroundLightBlack()
     }
-
+    
 
 }
 

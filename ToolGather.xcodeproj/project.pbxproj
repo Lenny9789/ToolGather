@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B877E2B6263149A900CF5DD1 /* LennyScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877E2B5263149A900CF5DD1 /* LennyScale.swift */; };
 		B88D25C5211AC5FF002B36D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25C4211AC5FF002B36D5 /* AppDelegate.swift */; };
 		B88D25C7211AC5FF002B36D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25C6211AC5FF002B36D5 /* ViewController.swift */; };
 		B88D25CA211AC5FF002B36D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88D25C8211AC5FF002B36D5 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 		10A21B65E03BD52BBB030F10 /* Pods_ToolGather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolGather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A73E6FD5D3F3CAD00575D2B /* Pods-ToolGather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolGather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToolGather/Pods-ToolGather.debug.xcconfig"; sourceTree = "<group>"; };
 		8EAB272488CA257EDE3B6D58 /* Pods-ToolGather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolGather.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolGather/Pods-ToolGather.release.xcconfig"; sourceTree = "<group>"; };
+		B877E2B5263149A900CF5DD1 /* LennyScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LennyScale.swift; sourceTree = "<group>"; };
 		B88D25C1211AC5FF002B36D5 /* ToolGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88D25C4211AC5FF002B36D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B88D25C6211AC5FF002B36D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				B8CF55B8211AFD1F00E3DEAE /* LennyTransitionAnimateManager.swift */,
 				B88D25DC211AC62A002B36D5 /* MainExtension.swift */,
+				B877E2B5263149A900CF5DD1 /* LennyScale.swift */,
 				B88D25DF211AC62A002B36D5 /* MainNavigationController.swift */,
 			);
 			path = "Extensions&Util";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88D26C0211AC62B002B36D5 /* MainNavigationController.swift in Sources */,
+				B877E2B6263149A900CF5DD1 /* LennyScale.swift in Sources */,
 				B88D26BD211AC62B002B36D5 /* MainExtension.swift in Sources */,
 				B88D25C7211AC5FF002B36D5 /* ViewController.swift in Sources */,
 				B88D2765211AC62B002B36D5 /* LennyNetworkRequest.swift in Sources */,

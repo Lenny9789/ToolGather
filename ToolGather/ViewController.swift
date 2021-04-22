@@ -7,10 +7,10 @@
 //
 
 import UIKit
+import DeviceKit
 
-class ViewController: LennyBasicViewController {
+class ViewController: UIViewController {
 
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,28 +19,15 @@ class ViewController: LennyBasicViewController {
     }
 
     private func setViews() {
-        lenny_OpenGestureDismiss(panGestureFrom: .left) { (context) in
-            
-            let fromViewController = context.viewController(forKey: .from)
-            let toViewController = context.viewController(forKey: .to)
-            let containerView = context.containerView
-            
-            containerView.addSubview(toViewController!.view)
-            containerView.addSubview(fromViewController!.view)
-            let originalFrame = fromViewController?.view.frame
-            UIView.animate(withDuration: 0.3, animations: {
-                fromViewController?.view.frame = self.transitionBounds
-                fromViewController!.view.alpha = 0
-            }, completion: { (finished) in
-                context.completeTransition(!context.transitionWasCancelled)
-                fromViewController?.view.frame = originalFrame!
-                fromViewController?.view.alpha = 1.0
-            })
-            
-        }
-        view.backgroundColor = UIColor.cc_BackgroundLightBlack()
+        
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("\(self) \(#function) -->  Size:", MainScreen)
+        
+    }
 
 }
 

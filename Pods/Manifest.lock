@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (4.7.3)
+  - DeviceKit (4.3.0)
   - ESTabBarController-swift (2.6.2)
   - FSPagerView (0.7.2)
   - Kingfisher (4.8.1)
@@ -15,6 +16,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire
+  - DeviceKit (~> 4.0)
   - ESTabBarController-swift
   - FSPagerView
   - Kingfisher
@@ -39,9 +41,12 @@ SPEC REPOS:
     - WHC_KeyboardManager
     - WHC_Layout
     - WHC_ModelSqliteKit
+  trunk:
+    - DeviceKit
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DeviceKit: 7decde449c308ac7e816e2184ded1c7c596fb885
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
   FSPagerView: 7515f63c424da71623d299d4fbbfb3dd884642ff
   Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
@@ -53,6 +58,6 @@ SPEC CHECKSUMS:
   WHC_Layout: ad504fc25be0483e91c50e87f066badbb387b0de
   WHC_ModelSqliteKit: dfafef3ee872dedd9823395291fc80bf37eac46d
 
-PODFILE CHECKSUM: f459f2d96a5c46751a72d28ff7b971a2a2b33bc2
+PODFILE CHECKSUM: 96514db565bb147643f17a91f4e6a083c1d1ac60
 
 COCOAPODS: 1.10.0

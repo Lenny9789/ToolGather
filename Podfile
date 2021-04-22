@@ -31,4 +31,5 @@ target 'ToolGather' do
     #pod 'PySwiftyRegex', '~> 1.0.0'
     #pod 'AsyncSwift'                   #封装的DispatchQueue
     #pod 'Lumos'                #ObjC  Runtime的封装
+    pod 'DeviceKit', '~> 4.0'
 end

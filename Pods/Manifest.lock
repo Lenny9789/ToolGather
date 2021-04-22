@@ -2,9 +2,7 @@ PODS:
   - Alamofire (4.7.3)
   - ESTabBarController-swift (2.6.2)
   - FSPagerView (0.7.2)
-  - FTPopOverMenu_Swift (0.0.9)
   - Kingfisher (4.8.1)
-  - SexyJson (0.1.1)
   - SkeletonView (1.3)
   - SlideMenuControllerSwift (4.0.0)
   - Toast-Swift (3.0.1)
@@ -16,12 +14,10 @@ PODS:
   - WHC_ModelSqliteKit/standard (1.3.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.7)
+  - Alamofire
   - ESTabBarController-swift
   - FSPagerView
-  - FTPopOverMenu_Swift (~> 0.0.6)
-  - Kingfisher (~> 4.0)
-  - SexyJson
+  - Kingfisher
   - SkeletonView
   - SlideMenuControllerSwift
   - Toast-Swift (~> 3.0.1)
@@ -31,13 +27,11 @@ DEPENDENCIES:
   - WHC_ModelSqliteKit
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - ESTabBarController-swift
     - FSPagerView
-    - FTPopOverMenu_Swift
     - Kingfisher
-    - SexyJson
     - SkeletonView
     - SlideMenuControllerSwift
     - Toast-Swift
@@ -50,9 +44,7 @@ SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
   ESTabBarController-swift: f0a8679e43df1e60b7b36bbcaf1dc98ba6273c7d
   FSPagerView: 7515f63c424da71623d299d4fbbfb3dd884642ff
-  FTPopOverMenu_Swift: 3c1c01a5005a06230ea4b7b9f4a96300f5748bd7
   Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
-  SexyJson: 6a58cf6f9b1ca6e2f4522746e9d34968a8e5c2cf
   SkeletonView: 7694bfa90fae436487534900020ed39b8eabf94c
   SlideMenuControllerSwift: 021d6318201c53d4d4d3710517d43d6c556c7dd0
   Toast-Swift: ba0b01b095aada709d915f9beb1d38184a2721c3
@@ -61,6 +53,6 @@ SPEC CHECKSUMS:
   WHC_Layout: ad504fc25be0483e91c50e87f066badbb387b0de
   WHC_ModelSqliteKit: dfafef3ee872dedd9823395291fc80bf37eac46d
 
-PODFILE CHECKSUM: 890e9aaafe47b6337ce1f5cb4c3f22e37b303e2e
+PODFILE CHECKSUM: f459f2d96a5c46751a72d28ff7b971a2a2b33bc2
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.10.0

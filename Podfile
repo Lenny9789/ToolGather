@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
- platform :ios, '9.0'
+ platform :ios, '12.0'
 
 target 'ToolGather' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -8,9 +8,9 @@ target 'ToolGather' do
   # Pods for ToolGather
 
 	#Lenny 的专用Pods文件
-	pod 'Kingfisher', '~> 4.0'	
+	pod 'Kingfisher'
     #pod 'WHC_PageViewKit', '~> 1.0.5'
-	pod 'Alamofire', '~> 4.7'
+	pod 'Alamofire'
     pod 'SlideMenuControllerSwift'	#Swift侧滑控制器
 	pod 'SkeletonView'		#Facebook的加载块状动画
 	pod 'Toast-Swift', '~> 3.0.1'	#iOS版的toast提示
@@ -23,7 +23,7 @@ target 'ToolGather' do
 	pod 'FSPagerView'		#无限轮播图
     pod 'WHC_KeyboardManager'
 	pod 'WHC_ModelSqliteKit'
-	pod 'SexyJson'
+#	pod 'SexyJson'
 	#pod 'SwiftDate', '~> 5.0'  	#最骚的Date处理框架
     pod 'ESTabBarController-swift'      #自定义Tab把人Controller
     #pod 'BTNavigationDropdownMenu'      #导航栏下拉选择控件

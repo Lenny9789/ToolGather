@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,25 +12,11 @@
 		B88D25CA211AC5FF002B36D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88D25C8211AC5FF002B36D5 /* Main.storyboard */; };
 		B88D25CC211AC5FF002B36D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88D25CB211AC5FF002B36D5 /* Assets.xcassets */; };
 		B88D25CF211AC5FF002B36D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88D25CD211AC5FF002B36D5 /* LaunchScreen.storyboard */; };
-		B88D26BA211AC62B002B36D5 /* MainWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25D8211AC62A002B36D5 /* MainWebViewController.swift */; };
 		B88D26BD211AC62B002B36D5 /* MainExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25DC211AC62A002B36D5 /* MainExtension.swift */; };
-		B88D26BE211AC62B002B36D5 /* LennyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25DD211AC62A002B36D5 /* LennyTableViewController.swift */; };
-		B88D26BF211AC62B002B36D5 /* LennyBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25DE211AC62A002B36D5 /* LennyBasicViewController.swift */; };
 		B88D26C0211AC62B002B36D5 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D25DF211AC62A002B36D5 /* MainNavigationController.swift */; };
 		B88D2764211AC62B002B36D5 /* LennyModelSaving.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D26B4211AC62B002B36D5 /* LennyModelSaving.swift */; };
 		B88D2765211AC62B002B36D5 /* LennyNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D26B5211AC62B002B36D5 /* LennyNetworkRequest.swift */; };
-		B88D2766211AC62B002B36D5 /* AllLotteryQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D26B7211AC62B002B36D5 /* AllLotteryQueryModel.swift */; };
-		B88D276B211AD3AC002B36D5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D276A211AD3AC002B36D5 /* MainViewController.swift */; };
 		B8CF55B9211AFD2000E3DEAE /* LennyTransitionAnimateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55B8211AFD1F00E3DEAE /* LennyTransitionAnimateManager.swift */; };
-		B8CF55BB211C688F00E3DEAE /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55BA211C688F00E3DEAE /* MainTabBarController.swift */; };
-		B8CF55BD211C7F1B00E3DEAE /* ExchangeRateAbstractCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55BC211C7F1B00E3DEAE /* ExchangeRateAbstractCell.swift */; };
-		B8CF55BF211D978400E3DEAE /* ExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55BE211D978400E3DEAE /* ExchangeViewController.swift */; };
-		B8CF55C1211D9F3D00E3DEAE /* ExchangeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55C0211D9F3D00E3DEAE /* ExchangeTableViewCell.swift */; };
-		B8CF55C32120253100E3DEAE /* NormalExchangeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55C22120253100E3DEAE /* NormalExchangeModel.swift */; };
-		B8CF55C521214DC800E3DEAE /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55C421214DC800E3DEAE /* StockViewController.swift */; };
-		B8CF55C721215CA300E3DEAE /* StockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55C621215CA300E3DEAE /* StockListViewController.swift */; };
-		B8CF55C92121766D00E3DEAE /* StockListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF55C82121766D00E3DEAE /* StockListModel.swift */; };
-		B8CF56122125A65E00E3DEAE /* LennyPullRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8CF56112125A65E00E3DEAE /* LennyPullRefresh.swift */; };
 		F2B9B40B778C84606138AFAB /* Pods_ToolGather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10A21B65E03BD52BBB030F10 /* Pods_ToolGather.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,26 +31,12 @@
 		B88D25CB211AC5FF002B36D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B88D25CE211AC5FF002B36D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88D25D0211AC5FF002B36D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B88D25D8211AC62A002B36D5 /* MainWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWebViewController.swift; sourceTree = "<group>"; };
 		B88D25DC211AC62A002B36D5 /* MainExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainExtension.swift; sourceTree = "<group>"; };
-		B88D25DD211AC62A002B36D5 /* LennyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LennyTableViewController.swift; sourceTree = "<group>"; };
-		B88D25DE211AC62A002B36D5 /* LennyBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LennyBasicViewController.swift; sourceTree = "<group>"; };
 		B88D25DF211AC62A002B36D5 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		B88D26B4211AC62B002B36D5 /* LennyModelSaving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LennyModelSaving.swift; sourceTree = "<group>"; };
 		B88D26B5211AC62B002B36D5 /* LennyNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LennyNetworkRequest.swift; sourceTree = "<group>"; };
-		B88D26B7211AC62B002B36D5 /* AllLotteryQueryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllLotteryQueryModel.swift; sourceTree = "<group>"; };
 		B88D2769211AC73C002B36D5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
-		B88D276A211AD3AC002B36D5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B8CF55B8211AFD1F00E3DEAE /* LennyTransitionAnimateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LennyTransitionAnimateManager.swift; sourceTree = "<group>"; };
-		B8CF55BA211C688F00E3DEAE /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
-		B8CF55BC211C7F1B00E3DEAE /* ExchangeRateAbstractCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateAbstractCell.swift; sourceTree = "<group>"; };
-		B8CF55BE211D978400E3DEAE /* ExchangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewController.swift; sourceTree = "<group>"; };
-		B8CF55C0211D9F3D00E3DEAE /* ExchangeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeTableViewCell.swift; sourceTree = "<group>"; };
-		B8CF55C22120253100E3DEAE /* NormalExchangeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalExchangeModel.swift; sourceTree = "<group>"; };
-		B8CF55C421214DC800E3DEAE /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
-		B8CF55C621215CA300E3DEAE /* StockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListViewController.swift; sourceTree = "<group>"; };
-		B8CF55C82121766D00E3DEAE /* StockListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockListModel.swift; sourceTree = "<group>"; };
-		B8CF56112125A65E00E3DEAE /* LennyPullRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LennyPullRefresh.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +104,6 @@
 		B88D25D7211AC62A002B36D5 /* MainProjectFiles */ = {
 			isa = PBXGroup;
 			children = (
-				B88D25D8211AC62A002B36D5 /* MainWebViewController.swift */,
-				B88D276A211AD3AC002B36D5 /* MainViewController.swift */,
-				B8CF55BC211C7F1B00E3DEAE /* ExchangeRateAbstractCell.swift */,
-				B8CF55BE211D978400E3DEAE /* ExchangeViewController.swift */,
-				B8CF55C0211D9F3D00E3DEAE /* ExchangeTableViewCell.swift */,
-				B8CF55C421214DC800E3DEAE /* StockViewController.swift */,
-				B8CF55C621215CA300E3DEAE /* StockListViewController.swift */,
 				B88D25DA211AC62A002B36D5 /* Extensions&Util */,
 			);
 			path = MainProjectFiles;
@@ -149,11 +114,7 @@
 			children = (
 				B8CF55B8211AFD1F00E3DEAE /* LennyTransitionAnimateManager.swift */,
 				B88D25DC211AC62A002B36D5 /* MainExtension.swift */,
-				B88D25DD211AC62A002B36D5 /* LennyTableViewController.swift */,
-				B88D25DE211AC62A002B36D5 /* LennyBasicViewController.swift */,
 				B88D25DF211AC62A002B36D5 /* MainNavigationController.swift */,
-				B8CF55BA211C688F00E3DEAE /* MainTabBarController.swift */,
-				B8CF56112125A65E00E3DEAE /* LennyPullRefresh.swift */,
 			);
 			path = "Extensions&Util";
 			sourceTree = "<group>";
@@ -171,9 +132,6 @@
 		B88D26B6211AC62B002B36D5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B88D26B7211AC62B002B36D5 /* AllLotteryQueryModel.swift */,
-				B8CF55C22120253100E3DEAE /* NormalExchangeModel.swift */,
-				B8CF55C82121766D00E3DEAE /* StockListModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -279,41 +237,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ToolGather/Pods-ToolGather-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ESTabBarController-swift/ESTabBarController_swift.framework",
-				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
-				"${BUILT_PRODUCTS_DIR}/FTPopOverMenu_Swift/FTPopOverMenu_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/SexyJson/SexyJson.framework",
-				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
-				"${BUILT_PRODUCTS_DIR}/SlideMenuControllerSwift/SlideMenuControllerSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-				"${BUILT_PRODUCTS_DIR}/ViewAnimator/ViewAnimator.framework",
-				"${BUILT_PRODUCTS_DIR}/WHC_KeyboardManager/WHC_KeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/WHC_Layout/WHC_Layout.framework",
-				"${BUILT_PRODUCTS_DIR}/WHC_ModelSqliteKit/WHC_ModelSqliteKit.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToolGather/Pods-ToolGather-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESTabBarController_swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTPopOverMenu_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SexyJson.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SlideMenuControllerSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ViewAnimator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_KeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_Layout.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WHC_ModelSqliteKit.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToolGather/Pods-ToolGather-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ToolGather/Pods-ToolGather-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToolGather/Pods-ToolGather-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -323,27 +256,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8CF55C32120253100E3DEAE /* NormalExchangeModel.swift in Sources */,
 				B88D26C0211AC62B002B36D5 /* MainNavigationController.swift in Sources */,
-				B88D26BF211AC62B002B36D5 /* LennyBasicViewController.swift in Sources */,
 				B88D26BD211AC62B002B36D5 /* MainExtension.swift in Sources */,
-				B88D26BA211AC62B002B36D5 /* MainWebViewController.swift in Sources */,
-				B88D26BE211AC62B002B36D5 /* LennyTableViewController.swift in Sources */,
 				B88D25C7211AC5FF002B36D5 /* ViewController.swift in Sources */,
-				B8CF55C521214DC800E3DEAE /* StockViewController.swift in Sources */,
-				B8CF55C1211D9F3D00E3DEAE /* ExchangeTableViewCell.swift in Sources */,
-				B8CF55BD211C7F1B00E3DEAE /* ExchangeRateAbstractCell.swift in Sources */,
-				B88D2766211AC62B002B36D5 /* AllLotteryQueryModel.swift in Sources */,
 				B88D2765211AC62B002B36D5 /* LennyNetworkRequest.swift in Sources */,
-				B8CF55BB211C688F00E3DEAE /* MainTabBarController.swift in Sources */,
 				B88D25C5211AC5FF002B36D5 /* AppDelegate.swift in Sources */,
-				B8CF55BF211D978400E3DEAE /* ExchangeViewController.swift in Sources */,
 				B8CF55B9211AFD2000E3DEAE /* LennyTransitionAnimateManager.swift in Sources */,
-				B8CF56122125A65E00E3DEAE /* LennyPullRefresh.swift in Sources */,
 				B88D2764211AC62B002B36D5 /* LennyModelSaving.swift in Sources */,
-				B8CF55C92121766D00E3DEAE /* StockListModel.swift in Sources */,
-				B88D276B211AD3AC002B36D5 /* MainViewController.swift in Sources */,
-				B8CF55C721215CA300E3DEAE /* StockListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,19 @@ class LennyScale: NSObject {
 
 }
 
+private var safeAreaTop: CGFloat {
+    if #available(iOS 11.0, *) {
+        return UIApplication.shared.keyWindow?.safeAreaInsets.top ?? 0
+    }
+    return 0
+}
+private var safeAreaBottom: CGFloat {
+    if #available(iOS 11.0, *) {
+        return UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
+    }
+    return 0
+}
+
 private let standardDevice = Device.iPhoneX
 
 private var standardDeviceSize: CGSize {
@@ -24,17 +37,17 @@ private var standardDeviceSize: CGSize {
     case .iPhone6Plus, .iPhone6sPlus, .iPhone7Plus, .iPhone8Plus:
         return CGSize.init(width: 414.0, height: 736.0)
     case .iPhoneX, .iPhoneXS, .iPhone11Pro, .iPhone12Mini:
-        return CGSize.init(width: 375.0, height: 812.0)
+        return CGSize.init(width: 375.0, height: 812.0 - safeAreaTop - safeAreaBottom)
     case .iPhoneXR, .iPhone11:
-        return CGSize.init(width: 414.0, height: 896.0)
+        return CGSize.init(width: 414.0, height: 896.0 - safeAreaTop - safeAreaBottom)
     case .iPhoneXSMax, .iPhone11ProMax:
-        return CGSize.init(width: 414.0, height: 896.0)
+        return CGSize.init(width: 414.0, height: 896.0 - safeAreaTop - safeAreaBottom)
     case .iPhone12, .iPhone12Pro:
-        return CGSize.init(width: 390.0, height: 844.0)
+        return CGSize.init(width: 390.0, height: 844.0 - safeAreaTop - safeAreaBottom)
     case .iPhone12ProMax:
-        return CGSize.init(width: 428.0, height: 926.0)
+        return CGSize.init(width: 428.0, height: 926.0 - safeAreaTop - safeAreaBottom)
     default:
-        return CGSize.init(width: 428.0, height: 926.0)
+        return CGSize.init(width: 428.0, height: 812.0 - safeAreaTop - safeAreaBottom)
     }
 }
 
@@ -47,17 +60,17 @@ private var currentDeviceSize: CGSize {
     case .iPhone6Plus, .iPhone6sPlus, .iPhone7Plus, .iPhone8Plus:
         return CGSize.init(width: 414.0, height: 736.0)
     case .iPhoneX, .iPhoneXS, .iPhone11Pro, .iPhone12Mini:
-        return CGSize.init(width: 375.0, height: 812.0)
+        return CGSize.init(width: 375.0, height: 812.0 - safeAreaTop - safeAreaBottom)
     case .iPhoneXR, .iPhone11:
-        return CGSize.init(width: 414.0, height: 896.0)
+        return CGSize.init(width: 414.0, height: 896.0 - safeAreaTop - safeAreaBottom)
     case .iPhoneXSMax, .iPhone11ProMax:
-        return CGSize.init(width: 414.0, height: 896.0)
+        return CGSize.init(width: 414.0, height: 896.0 - safeAreaTop - safeAreaBottom)
     case .iPhone12, .iPhone12Pro:
-        return CGSize.init(width: 390.0, height: 844.0)
+        return CGSize.init(width: 390.0, height: 844.0 - safeAreaTop - safeAreaBottom)
     case .iPhone12ProMax:
-        return CGSize.init(width: 428.0, height: 926.0)
+        return CGSize.init(width: 428.0, height: 926.0 - safeAreaTop - safeAreaBottom)
     default:
-        return CGSize.init(width: 428.0, height: 926.0)
+        return CGSize.init(width: 428.0, height: 812.0 - safeAreaTop - safeAreaBottom)
     }
 }
 
